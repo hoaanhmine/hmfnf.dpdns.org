@@ -1,5 +1,5 @@
 // Lấy danh sách anime mới nhất từ Anime-API
-const ANIME_API = 'https://anime-api-one.vercel.app/api/anime/gogoanime/recent-episodes';
+const ANIME_API = 'https://corsproxy.io/?https://anime-api-one.vercel.app/api/anime/gogoanime/recent-episodes';
 
 async function fetchAnime() {
   const res = await fetch(ANIME_API);
