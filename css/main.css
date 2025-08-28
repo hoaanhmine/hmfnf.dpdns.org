@@ -15,7 +15,7 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   padding: 32px 28px 28px 28px;
-  opacity: 0;
+  
   transform: translateY(40px);
   transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
 }
@@ -29,13 +29,13 @@ h1 {
   color: #4361ee;
   font-size: 1.1rem;
   margin-bottom: 18px;
-  opacity: 1;
+  
   transform: none;
   transition: opacity 0.7s 0.2s, transform 0.7s 0.2s;
 }
 .section {
   margin-bottom: 24px;
-  opacity: 1;
+  
   transform: none;
   transition: opacity 0.7s 0.3s, transform 0.7s 0.3s;
 }
@@ -45,7 +45,7 @@ h1 {
 }
 .discord-list li {
   margin-bottom: 10px;
-  opacity: 1;
+  
   transform: none;
   transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
 }
@@ -64,6 +64,6 @@ h1 {
   color: #adb5bd;
   font-size: 0.95rem;
   margin-top: 32px;
-  opacity: 1;
+
   transition: opacity 0.7s 0.5s;
 }
