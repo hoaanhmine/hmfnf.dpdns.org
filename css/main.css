@@ -28,14 +28,14 @@ h1 {
   color: #4361ee;
   font-size: 1.1rem;
   margin-bottom: 18px;
-  opacity: 0;
-  transform: translateY(20px);
+  opacity: 1;
+  transform: none;
   transition: opacity 0.7s 0.2s, transform 0.7s 0.2s;
 }
 .section {
   margin-bottom: 24px;
-  opacity: 0;
-  transform: translateY(20px);
+  opacity: 1;
+  transform: none;
   transition: opacity 0.7s 0.3s, transform 0.7s 0.3s;
 }
 .discord-list {
@@ -44,8 +44,8 @@ h1 {
 }
 .discord-list li {
   margin-bottom: 10px;
-  opacity: 0;
-  transform: translateX(-20px);
+  opacity: 1;
+  transform: none;
   transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
 }
 .discord-link {
@@ -63,6 +63,6 @@ h1 {
   color: #adb5bd;
   font-size: 0.95rem;
   margin-top: 32px;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.7s 0.5s;
 }
