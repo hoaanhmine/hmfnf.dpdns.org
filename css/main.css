@@ -9,6 +9,7 @@ body {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: color 0.5s, letter-spacing 0.5s, text-shadow 0.5s;
 }
 
 h1 {
@@ -18,7 +19,16 @@ h1 {
   font-weight: 700;
   letter-spacing: 0.01em;
   margin-bottom: 8px;
+  transition: color 0.5s, letter-spacing 0.5s, text-shadow 0.5s;
+  text-shadow: 0 2px 8px rgba(67,97,238,0.06);
+  cursor: pointer;
 }
+h1:hover {
+  color: #4361ee;
+  letter-spacing: 0.04em;
+  text-shadow: 0 4px 16px rgba(67,97,238,0.18);
+}
+
 @media (max-width: 700px) {
   .container {
     max-width: 98vw;
@@ -32,16 +42,27 @@ h1 {
   color: #4361ee;
   font-size: 1.1rem;
   margin-bottom: 18px;
-  
   transform: none;
-  transition: opacity 0.7s 0.2s, transform 0.7s 0.2s;
+  transition: opacity 0.7s 0.2s, transform 0.7s 0.2s, color 0.5s, letter-spacing 0.5s, text-shadow 0.5s;
+  text-shadow: 0 1px 4px rgba(67,97,238,0.08);
 }
+.subtitle:hover {
+  color: #3a0ca3;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 8px rgba(67,97,238,0.15);
+}
+
 .section {
   margin-bottom: 24px;
-  
   transform: none;
-  transition: opacity 0.7s 0.3s, transform 0.7s 0.3s;
+  transition: opacity 0.7s 0.3s, transform 0.7s 0.3s, color 0.5s, letter-spacing 0.5s, text-shadow 0.5s;
 }
+.section:hover {
+  color: #3a0ca3;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 6px rgba(67,97,238,0.10);
+}
+
 .discord-list {
   list-style: none;
   padding: 0;
