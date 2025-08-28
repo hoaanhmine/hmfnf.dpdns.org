@@ -5,14 +5,28 @@ body {
   padding: 0;
   min-height: 100vh;
   color: #22223b;
-  transition: background 0.8s cubic-bezier(0.4,0,0.2,1);
+  letter-spacing: 0.01em;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   color: #3a0ca3;
-  transition: color 0.4s;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 8px;
+}
+@media (max-width: 700px) {
+  .container {
+    max-width: 98vw;
+    padding: 18px 4vw 18px 4vw;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
 }
 .subtitle {
   color: #4361ee;
@@ -33,26 +47,34 @@ h1 {
   padding: 0;
 }
 .discord-list li {
-  margin-bottom: 10px;
-  
-  transform: none;
-  transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
+  margin-bottom: 12px;
+  transition: background 0.2s;
+  border-radius: 8px;
+  padding: 2px 0 2px 0;
+}
+.discord-list li:hover {
+  background: #f1f3fa;
 }
 .discord-link {
   color: #3a86ff;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s;
+  transition: color 0.2s, box-shadow 0.2s;
+  border-bottom: 1.5px dotted #3a86ff;
+  padding: 1px 2px;
+  border-radius: 4px;
 }
 .discord-link:hover {
   color: #4361ee;
+  background: #e0e7ff;
   text-decoration: underline;
+  box-shadow: 0 2px 8px rgba(67,97,238,0.08);
 }
 .footer {
   text-align: center;
   color: #adb5bd;
-  font-size: 0.95rem;
-  margin-top: 32px;
-
-  transition: opacity 0.7s 0.5s;
+  font-size: 1rem;
+  margin-top: 40px;
+  letter-spacing: 0.01em;
+  padding-bottom: 8px;
 }
