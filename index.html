@@ -1,88 +1,105 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trần Minh Hoà - Giới thiệu bản thân</title>
+  <title>Tran Minh Hoa - Personal Profile</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <script>
-  // Hiệu ứng fade-in khi tải trang
-  window.addEventListener('DOMContentLoaded', function() {
-  // Bỏ hiệu ứng, chỉ chạy ngôn ngữ
-      // Load ngôn ngữ từ file JSON
-      async function loadLang(lang) {
-  const res = await fetch(`lang/${lang}.json`);
-        return await res.json();
-      }
-      async function setLang(lang) {
-  const langData = await loadLang(lang);
-  const h1 = document.querySelector('h1');
-  if (h1) h1.textContent = langData.title;
-  const subtitle = document.querySelector('.subtitle');
-  if (subtitle) subtitle.textContent = langData.subtitle;
-        // Game yêu thích
-        const favSection = document.getElementById('fav-section');
-        if (favSection) {
-          const strong = favSection.querySelector('strong');
-          if (strong) strong.textContent = langData.fav;
-          const span = favSection.querySelector('span');
-          if (span) span.textContent = langData.favGame;
-        }
-        // Discord group
-        const groupSection = document.getElementById('group-section');
-        if (groupSection) {
-          const strong = groupSection.querySelector('strong');
-          if (strong) strong.textContent = langData.group;
-        }
-  const contactTitle = document.getElementById('contact-title');
-  if (contactTitle) contactTitle.textContent = langData.contact;
-  // Đảm bảo link gmail không có style màu chữ
-  const gmailLink = document.getElementById('gmail-link');
-  if (gmailLink) gmailLink.removeAttribute('style');
-  const footer = document.querySelector('.footer');
-  if (footer) footer.innerHTML = langData.footer;
-  const langVi = document.getElementById('lang-vi');
-  if (langVi) langVi.textContent = langData.langVi;
-  const langEn = document.getElementById('lang-en');
-  if (langEn) langEn.textContent = langData.langEn;
-      }
-      document.getElementById('lang-vi').onclick = () => setLang('vi');
-      document.getElementById('lang-en').onclick = () => setLang('en');
-      // Mặc định
-    setLang('en');
+  <style>
+    .lang-btn {
+      margin-right: 8px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      border: none;
+      background: #e0e7ff;
+      color: #3a0ca3;
+      font-weight: 500;
+      cursor: pointer;
     }
-  );
-
-  // Kết thúc hiệu ứng và ngôn ngữ
-  </script>
+    .lang-btn:last-child { margin-right: 0; }
+    .profile-avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 18px;
+      border: 3px solid #e0e7ff;
+    }
+    .container { text-align: center; }
+    .section { text-align: left; }
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1>Trần Minh Hoà</h1>
-    <div class="subtitle">Một người không giỏi gì cả 😅</div>
-    <div class="section" id="contact-section">
-  <strong id="contact-title">Liên hệ Gmail:</strong>
-  <a id="gmail-link" href="mailto:tranminhhoa.hmfnf@gmail.com" style="font-weight:500;">tranminhhoa.hmfnf@gmail.com</a>
+    <img src="https://avatars.githubusercontent.com/u/101853306?v=4" alt="Avatar" class="profile-avatar" loading="lazy">
+    <h1 id="main-title">Tran Minh Hoa</h1>
+    <div id="subtitle">Just a regular person 😅</div>
+    <div style="text-align:right; margin-top:10px;">
+      <button class="lang-btn" id="lang-en">�� English</button>
+      <button class="lang-btn" id="lang-vi">�� Tiếng Việt</button>
     </div>
-    <div class="section" id="lang-section" style="text-align:right; margin-top:-12px;">
-    <button id="lang-vi" style="margin-right:8px; padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">🇻🇳 Tiếng Việt</button>
-    <button id="lang-en" style="padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">🇬🇧 English</button>
-    </div>
-    <div class="section" id="fav-section">
-      <strong>Game yêu thích:</strong> <span>Friday Night Funkin' (FNF)</span>
+    <div class="section" id="about-section">
+      <strong id="fav-label">Favorite game:</strong> <span id="fav-game">Friday Night Funkin' (FNF)</span>
     </div>
     <div class="section" id="group-section">
-      <strong>Các nhóm Discord của mình:</strong>
+      <strong id="group-label">My Discord groups:</strong>
       <ul class="discord-list">
-        <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>
+        <li>Social: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>
         <li>FNF: <a class="discord-link" href="https://discord.com/invite/U2ChQJHGPs" target="_blank" rel="noopener">https://discord.com/invite/U2ChQJHGPs</a></li>
         <li>Minecraft server: <a class="discord-link" href="https://discord.com/invite/z6puJ7hArq" target="_blank" rel="noopener">https://discord.com/invite/z6puJ7hArq</a></li>
       </ul>
     </div>
-    <div class="footer">
-      &copy; 2025 Trần Minh Hoà. All rights reserved.
+    <div class="section" id="contact-section">
+      <strong id="contact-label">Contact Gmail:</strong>
+      <a id="gmail-link" href="mailto:tranminhhoa.hmfnf@gmail.com">tranminhhoa.hmfnf@gmail.com</a>
     </div>
+    <div class="footer" id="footer">&copy; 2025 Tran Minh Hoa. All rights reserved.</div>
   </div>
+  <script>
+    const langData = {
+      en: {
+        title: 'Tran Minh Hoa',
+        subtitle: 'Just a regular person 😅',
+        fav: 'Favorite game:',
+        favGame: "Friday Night Funkin' (FNF)",
+        group: 'My Discord groups:',
+        contact: 'Contact Gmail:',
+        footer: '&copy; 2025 Tran Minh Hoa. All rights reserved.',
+        langVi: '🇻🇳 Tiếng Việt',
+        langEn: '🇬🇧 English',
+        groupSocial: 'Social:'
+      },
+      vi: {
+        title: 'Trần Minh Hoà',
+        subtitle: 'Một người không giỏi gì cả 😅',
+        fav: 'Game yêu thích:',
+        favGame: "Friday Night Funkin' (FNF)",
+        group: 'Các nhóm Discord của mình:',
+        contact: 'Liên hệ Gmail:',
+        footer: '&copy; 2025 Trần Minh Hoà. All rights reserved.',
+        langVi: '🇻🇳 Tiếng Việt',
+        langEn: '🇬🇧 English',
+        groupSocial: 'Giao lưu:'
+      }
+    };
+    function setLang(lang) {
+      document.getElementById('main-title').textContent = langData[lang].title;
+      document.getElementById('subtitle').textContent = langData[lang].subtitle;
+      document.getElementById('fav-label').textContent = langData[lang].fav;
+      document.getElementById('fav-game').textContent = langData[lang].favGame;
+      document.getElementById('group-label').textContent = langData[lang].group;
+      document.getElementById('contact-label').textContent = langData[lang].contact;
+      document.getElementById('footer').innerHTML = langData[lang].footer;
+      document.getElementById('lang-vi').textContent = langData[lang].langVi;
+      document.getElementById('lang-en').textContent = langData[lang].langEn;
+      // Đổi label nhóm Discord đầu tiên
+      const groupList = document.querySelector('#group-section ul.discord-list li');
+      if (groupList) groupList.innerHTML = `${langData[lang].groupSocial} <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a>`;
+    }
+    document.getElementById('lang-vi').onclick = () => setLang('vi');
+    document.getElementById('lang-en').onclick = () => setLang('en');
+    setLang('en');
+  </script>
 </body>
 </html>
