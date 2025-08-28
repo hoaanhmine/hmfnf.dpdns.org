@@ -16,7 +16,7 @@
       // Hiệu ứng cho các phần tử con
       // Load ngôn ngữ từ file JSON
       async function loadLang(lang) {
-        const res = await fetch(`./lang/${lang}.json`);
+  const res = await fetch(`lang/${lang}.json`);
         return await res.json();
       }
       async function setLang(lang) {
@@ -34,7 +34,7 @@
       }
       document.getElementById('lang-vi').onclick = () => setLang('vi');
       document.getElementById('lang-en').onclick = () => setLang('en');
-      // Mặc định tiếng Việt
+      // Mặc định
     setLang('en');
     }
 });
