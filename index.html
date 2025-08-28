@@ -21,14 +21,16 @@
       }
       async function setLang(lang) {
         const langData = await loadLang(lang);
-        document.querySelector('h1').textContent = langData.title;
-        document.querySelector('.subtitle').textContent = langData.subtitle;
-        document.querySelectorAll('.section')[0].innerHTML = `<strong>${langData.fav}</strong> ${langData.favGame}`;
-        document.querySelectorAll('.section')[1].innerHTML = `<strong>${langData.group}</strong>\n      <ul class="discord-list">\n        <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>\n        <li>FNF: <a class="discord-link" href="https://discord.com/invite/U2ChQJHGPs" target="_blank" rel="noopener">https://discord.com/invite/U2ChQJHGPs</a></li>\n        <li>Minecraft server: <a class="discord-link" href="https://discord.com/invite/z6puJ7hArq" target="_blank" rel="noopener">https://discord.com/invite/z6puJ7hArq</a></li>\n      </ul>`;
-        document.getElementById('contact-title').textContent = langData.contact;
-        document.querySelector('.footer').innerHTML = langData.footer;
-        document.getElementById('lang-vi').textContent = langData.langVi;
-        document.getElementById('lang-en').textContent = langData.langEn;
+  document.querySelector('h1').textContent = langData.title;
+  document.querySelector('.subtitle').textContent = langData.subtitle;
+  document.querySelectorAll('.section')[0].innerHTML = `<strong>${langData.fav}</strong> ${langData.favGame}`;
+  document.querySelectorAll('.section')[1].innerHTML = `<strong>${langData.group}</strong>\n      <ul class="discord-list">\n        <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>\n        <li>FNF: <a class="discord-link" href="https://discord.com/invite/U2ChQJHGPs" target="_blank" rel="noopener">https://discord.com/invite/U2ChQJHGPs</a></li>\n        <li>Minecraft server: <a class="discord-link" href="https://discord.com/invite/z6puJ7hArq" target="_blank" rel="noopener">https://discord.com/invite/z6puJ7hArq</a></li>\n      </ul>`;
+  document.getElementById('contact-title').textContent = langData.contact;
+  // Đảm bảo link gmail không có style màu chữ
+  document.getElementById('gmail-link').removeAttribute('style');
+  document.querySelector('.footer').innerHTML = langData.footer;
+  document.getElementById('lang-vi').textContent = langData.langVi;
+  document.getElementById('lang-en').textContent = langData.langEn;
       }
       document.getElementById('lang-vi').onclick = () => setLang('vi');
       document.getElementById('lang-en').onclick = () => setLang('en');
