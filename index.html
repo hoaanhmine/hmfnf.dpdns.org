@@ -5,76 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trần Minh Hoà - Giới thiệu bản thân</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', Arial, sans-serif;
-      background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
-      margin: 0;
-      padding: 0;
-      min-height: 100vh;
-      color: #22223b;
-    transition: background 0.8s cubic-bezier(0.4,0,0.2,1);
-    }
-    .container {
-      max-width: 600px;
-      margin: 40px auto;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-      padding: 32px 28px 28px 28px;
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 2.2rem;
-      color: #3a0ca3;
-    transition: color 0.4s;
-    }
-    .subtitle {
-      color: #4361ee;
-      font-size: 1.1rem;
-      margin-bottom: 18px;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.7s 0.2s, transform 0.7s 0.2s;
-    }
-    .section {
-      margin-bottom: 24px;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.7s 0.3s, transform 0.7s 0.3s;
-    }
-    .discord-list {
-      list-style: none;
-      padding: 0;
-    }
-    .discord-list li {
-      margin-bottom: 10px;
-    opacity: 0;
-    transform: translateX(-20px);
-    transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
-    }
-    .discord-link {
-      color: #3a86ff;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.2s;
-    }
-    .discord-link:hover {
-      color: #4361ee;
-      text-decoration: underline;
-    }
-    .footer {
-      text-align: center;
-      color: #adb5bd;
-      font-size: 0.95rem;
-      margin-top: 32px;
-    opacity: 0;
-    transition: opacity 0.7s 0.5s;
-    }
-  </style>
+  <link rel="stylesheet" href="./css/main.css">
   <script>
   // Hiệu ứng fade-in khi tải trang
   window.addEventListener('DOMContentLoaded', function() {
@@ -83,33 +14,29 @@
       container.style.opacity = '1';
       container.style.transform = 'translateY(0)';
       // Hiệu ứng cho các phần tử con
-      setTimeout(() => {
-        const subtitle = document.querySelector('.subtitle');
-        if (subtitle) {
-          subtitle.style.opacity = '1';
-          subtitle.style.transform = 'translateY(0)';
-        }
-        document.querySelectorAll('.section').forEach((el, i) => {
-          setTimeout(() => {
-            el.style.opacity = '1';
-            el.style.transform = 'translateY(0)';
-          }, 80 * i);
-        });
-        document.querySelectorAll('.discord-list li').forEach((el, i) => {
-          setTimeout(() => {
-            el.style.opacity = '1';
-            el.style.transform = 'translateX(0)';
-          }, 60 * i);
-        });
-        const footer = document.querySelector('.footer');
-        if (footer) {
-          setTimeout(() => {
-            footer.style.opacity = '1';
-          }, 600);
-        }
-      }, 200);
+          // Load ngôn ngữ từ file JSON
+          async function loadLang(lang) {
+            const res = await fetch(`./lang/${lang}.json`);
+            return await res.json();
+          }
+          async function setLang(lang) {
+            const langData = await loadLang(lang);
+            document.querySelector('h1').textContent = langData.title;
+            document.querySelector('.subtitle').textContent = langData.subtitle;
+            document.querySelectorAll('.section')[0].innerHTML = `<strong>${langData.fav}</strong> ${langData.favGame}`;
+            document.querySelectorAll('.section')[1].innerHTML = `<strong>${langData.group}</strong>\n      <ul class="discord-list">\n        <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>\n        <li>FNF: <a class="discord-link" href="https://discord.com/invite/U2ChQJHGPs" target="_blank" rel="noopener">https://discord.com/invite/U2ChQJHGPs</a></li>\n        <li>Minecraft server: <a class="discord-link" href="https://discord.com/invite/z6puJ7hArq" target="_blank" rel="noopener">https://discord.com/invite/z6puJ7hArq</a></li>\n      </ul>`;
+            document.getElementById('contact-title').textContent = langData.contact;
+            document.querySelector('.footer').innerHTML = langData.footer;
+            document.getElementById('lang-vi').textContent = langData.langVi;
+            document.getElementById('lang-en').textContent = langData.langEn;
+          }
+          document.getElementById('lang-vi').onclick = () => setLang('vi');
+          document.getElementById('lang-en').onclick = () => setLang('en');
+          // Mặc định tiếng Việt
+          setLang('vi');
     }
   });
+  // Kết thúc hiệu ứng và ngôn ngữ
   </script>
 </head>
 <body>
@@ -117,6 +44,14 @@
     <h1>Trần Minh Hoà</h1>
     <div class="subtitle">Một người không giỏi gì cả 😅</div>
     <div class="section">
+    <div class="section" id="contact-section">
+      <strong id="contact-title">Liên hệ Gmail:</strong>
+      <a id="gmail-link" href="mailto:tranminhhoa.hmfnf@gmail.com" style="color:#3a86ff; font-weight:500;">tranminhhoa.hmfnf@gmail.com</a>
+    </div>
+    <div class="section" id="lang-section" style="text-align:right; margin-top:-12px;">
+      <button id="lang-vi" style="margin-right:8px; padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">Tiếng Việt</button>
+      <button id="lang-en" style="padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">English</button>
+    </div>
       <strong>Game yêu thích:</strong> Friday Night Funkin' (FNF)
     </div>
     <div class="section">
@@ -128,14 +63,7 @@
       </ul>
     </div>
     <div class="section">
-      <h2>Kênh YouTube của tôi</h2>
-      <div style="text-align:center;">
-        <iframe width="100%" height="360" style="max-width:560px;" src="https://www.youtube.com/embed?listType=user_uploads&list=hmfnf" title="YouTube videos" frameborder="0" allowfullscreen></iframe>
-        <div style="margin-top:10px;">
-          <a href="https://www.youtube.com/@hmfnf" target="_blank" rel="noopener" style="color:#3a86ff; font-weight:500;">Xem tất cả video trên kênh @hmfnf</a>
-        </div>
-      </div>
-    </div>
+
     <div class="footer">
       &copy; 2025 Trần Minh Hoà. All rights reserved.
     </div>
