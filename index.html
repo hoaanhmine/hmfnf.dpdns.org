@@ -13,6 +13,7 @@
       padding: 0;
       min-height: 100vh;
       color: #22223b;
+    transition: background 0.8s cubic-bezier(0.4,0,0.2,1);
     }
     .container {
       max-width: 600px;
@@ -21,19 +22,29 @@
       border-radius: 16px;
       box-shadow: 0 4px 24px rgba(0,0,0,0.08);
       padding: 32px 28px 28px 28px;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1);
     }
     h1 {
       margin-top: 0;
       font-size: 2.2rem;
       color: #3a0ca3;
+    transition: color 0.4s;
     }
     .subtitle {
       color: #4361ee;
       font-size: 1.1rem;
       margin-bottom: 18px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s 0.2s, transform 0.7s 0.2s;
     }
     .section {
       margin-bottom: 24px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s 0.3s, transform 0.7s 0.3s;
     }
     .discord-list {
       list-style: none;
@@ -41,6 +52,9 @@
     }
     .discord-list li {
       margin-bottom: 10px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.6s 0.4s, transform 0.6s 0.4s;
     }
     .discord-link {
       color: #3a86ff;
@@ -57,8 +71,46 @@
       color: #adb5bd;
       font-size: 0.95rem;
       margin-top: 32px;
+    opacity: 0;
+    transition: opacity 0.7s 0.5s;
     }
   </style>
+  <script>
+  // Hiệu ứng fade-in khi tải trang
+  window.addEventListener('DOMContentLoaded', function() {
+    const container = document.querySelector('.container');
+    if (container) {
+      container.style.opacity = '1';
+      container.style.transform = 'translateY(0)';
+      // Hiệu ứng cho các phần tử con
+      setTimeout(() => {
+        const subtitle = document.querySelector('.subtitle');
+        if (subtitle) {
+          subtitle.style.opacity = '1';
+          subtitle.style.transform = 'translateY(0)';
+        }
+        document.querySelectorAll('.section').forEach((el, i) => {
+          setTimeout(() => {
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+          }, 80 * i);
+        });
+        document.querySelectorAll('.discord-list li').forEach((el, i) => {
+          setTimeout(() => {
+            el.style.opacity = '1';
+            el.style.transform = 'translateX(0)';
+          }, 60 * i);
+        });
+        const footer = document.querySelector('.footer');
+        if (footer) {
+          setTimeout(() => {
+            footer.style.opacity = '1';
+          }, 600);
+        }
+      }, 200);
+    }
+  });
+  </script>
 </head>
 <body>
   <div class="container">
