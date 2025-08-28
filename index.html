@@ -25,9 +25,20 @@
   if (h1) h1.textContent = langData.title;
   const subtitle = document.querySelector('.subtitle');
   if (subtitle) subtitle.textContent = langData.subtitle;
-  const sections = document.querySelectorAll('.section');
-  if (sections[0]) sections[0].innerHTML = `<strong>${langData.fav}</strong> ${langData.favGame}`;
-  if (sections[1]) sections[1].innerHTML = `<strong>${langData.group}</strong>\n      <ul class="discord-list">\n        <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>\n        <li>FNF: <a class="discord-link" href="https://discord.com/invite/U2ChQJHGPs" target="_blank" rel="noopener">https://discord.com/invite/U2ChQJHGPs</a></li>\n        <li>Minecraft server: <a class="discord-link" href="https://discord.com/invite/z6puJ7hArq" target="_blank" rel="noopener">https://discord.com/invite/z6puJ7hArq</a></li>\n      </ul>`;
+        // Game yêu thích
+        const favSection = document.getElementById('fav-section');
+        if (favSection) {
+          const strong = favSection.querySelector('strong');
+          if (strong) strong.textContent = langData.fav;
+          const span = favSection.querySelector('span');
+          if (span) span.textContent = langData.favGame;
+        }
+        // Discord group
+        const groupSection = document.getElementById('group-section');
+        if (groupSection) {
+          const strong = groupSection.querySelector('strong');
+          if (strong) strong.textContent = langData.group;
+        }
   const contactTitle = document.getElementById('contact-title');
   if (contactTitle) contactTitle.textContent = langData.contact;
   // Đảm bảo link gmail không có style màu chữ
@@ -62,10 +73,10 @@
     <button id="lang-vi" style="margin-right:8px; padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">🇻🇳 Tiếng Việt</button>
     <button id="lang-en" style="padding:4px 12px; border-radius:6px; border:none; background:#e0e7ff; color:#3a0ca3; font-weight:500; cursor:pointer;">🇬🇧 English</button>
     </div>
-    <div class="section">
-      <strong>Game yêu thích:</strong> Friday Night Funkin' (FNF)
+    <div class="section" id="fav-section">
+      <strong>Game yêu thích:</strong> <span>Friday Night Funkin' (FNF)</span>
     </div>
-    <div class="section">
+    <div class="section" id="group-section">
       <strong>Các nhóm Discord của mình:</strong>
       <ul class="discord-list">
         <li>Giao lưu: <a class="discord-link" href="https://discord.gg/E3SMkSr7t6" target="_blank" rel="noopener">https://discord.gg/E3SMkSr7t6</a></li>
