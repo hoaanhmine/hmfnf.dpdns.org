@@ -9,11 +9,7 @@
   <script>
   // Hiệu ứng fade-in khi tải trang
   window.addEventListener('DOMContentLoaded', function() {
-    const container = document.querySelector('.container');
-    if (container) {
-      container.style.opacity = '1';
-      container.style.transform = 'translateY(0)';
-      // Hiệu ứng cho các phần tử con
+  // Bỏ hiệu ứng, chỉ chạy ngôn ngữ
       // Load ngôn ngữ từ file JSON
       async function loadLang(lang) {
   const res = await fetch(`lang/${lang}.json`);
