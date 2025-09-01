@@ -1,211 +1,135 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta name="google-adsense-account" content="ca-pub-7839368169456541">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Funkin-Project-Vietnam</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <style>
-    /* Smooth scrolling */
-    html { scroll-behavior: smooth; }
-    
-    /* Font and base styles */
-    .font-sans { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-    
-    /* Background colors */
-    .bg-gray-100 { background-color: #f3f4f6; }
-    .bg-blue-600 { background-color: #2563eb; }
-    .bg-white { background-color: #ffffff; }
-    .bg-gray-800 { background-color: #1f2937; }
-    .bg-gradient-hero { 
-      background: linear-gradient(to bottom, rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.4)), url('https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
-    }
-    
-    /* Text colors */
-    .text-white { color: #ffffff; }
-    .text-gray-700 { color: #374151; }
-    .text-blue-600 { color: #2563eb; transition: color 0.3s ease; }
-    .text-red-600 { color: #dc2626; transition: color 0.3s ease; }
-    .text-neon-green { color: #39ff14; }
-    
-    /* Text sizes */
-    .text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
-    .text-5xl { font-size: 3rem; line-height: 3.5rem; }
-    .text-lg { font-size: 1.125rem; line-height: 1.75rem; }
-    .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
-    .text-xl { font-size: 1.25rem; line-height: 1.75rem; }
-    .text-sm { font-size: 0.875rem; line-height: 1.25rem; }
-    
-    /* Font weights */
-    .font-bold { font-weight: 700; }
-    .font-semibold { font-weight: 600; }
-    
-    /* Padding */
-    .py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
-    .px-4 { padding-left: 1rem; padding-right: 1rem; }
-    .py-12 { padding-top: 3rem; padding-bottom: 3rem; }
-    .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
-    .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
-    .px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
-    
-    /* Margins */
-    .mt-2 { margin-top: 0.5rem; }
-    .mb-8 { margin-bottom: 2rem; }
-    .mb-12 { margin-bottom: 3rem; }
-    .mb-4 { margin-bottom: 1rem; }
-    .mt-4 { margin-top: 1rem; }
-    
-    /* Text alignment */
-    .text-center { text-align: center; }
-    
-    /* Containers */
-    .container { width: 100%; max-width: 1280px; margin-left: auto; margin-right: auto; }
-    .mx-auto { margin-left: auto; margin-right: auto; }
-    
-    /* Max width */
-    .max-w-3xl { max-width: 48rem; }
-    
-    /* Line height */
-    .leading-relaxed { line-height: 1.625; }
-    
-    /* Shadows and rounded corners */
-    .shadow-md { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-    .shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); }
-    .rounded-lg { border-radius: 0.5rem; }
-    
-    /* Hover effects */
-    .hover\:underline:hover { text-decoration: underline; }
-    .hover\:text-blue-800:hover { color: #1e40af; }
-    .hover\:text-red-800:hover { color: #b91c1c; }
-    .hover\:scale-110:hover { transform: scale(1.1); }
-    
-    /* Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
-    @keyframes slideIn {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    
-    /* Apply animations to sections */
-    section {
-      animation: fadeIn 0.8s ease-out forwards;
-      animation-delay: 0.2s;
-      opacity: 0;
-    }
-    
-    /* Apply animation to hero and footer */
-    .hero, footer {
-      animation: slideIn 0.6s ease-out forwards;
-      opacity: 0;
-    }
-    
-    /* Stagger animation for section children */
-    section > * {
-      animation: fadeIn 0.8s ease-out forwards;
-      animation-delay: calc(0.3s + 0.1s * var(--child-index));
-      opacity: 0;
-    }
-    
-    /* Transition for links and icons */
-    a, .icon { transition: color 0.3s ease, text-decoration 0.3s ease, transform 0.3s ease; }
-    
-    /* Icon styling */
-    .icon { margin-right: 0.5rem; }
-    
-    /* Project card styling */
-    .project-card {
-      background: white;
-      border-radius: 0.5rem;
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .project-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
-    }
-    .project-link {
-      color: #2563eb;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .project-link:hover {
-      color: #1e40af;
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-7839368169456541">
+    <title>Funkin Project Vietnam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1a73e8;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #1a73e8;
+        }
+        .adsense {
+            text-align: center;
+            margin: 2rem 0;
+            background-color: #e0e0e0;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
-<body class="bg-gray-100 font-sans">
-  <header class="hero bg-gradient-hero text-white py-16">
-    <div class="container mx-auto px-4 text-center">
-      <h1 class="text-5xl font-bold"><i class="fa-solid fa-gamepad icon"></i>Funkin-Project-Vietnam</h1>
-      <p class="mt-2 text-lg">Chào mừng bạn đến với cộng đồng game thủ Việt Nam!</p>
+<body>
+    <header>
+        <h1>Funkin Project Vietnam</h1>
+        <p>Chào mấy ní, đây là Team Github sẽ và có thể dịch thuật các bản mods, bản gốc Cho Friday Night Funkin', và CÓ THỂ vài trò khác nữa!</p>
+    </header>
+    <nav>
+        <a href="https://github.com/Funkin-Project-Vietnam" target="_blank">GitHub</a>
+        <a href="mailto:hoaanhminevn@gmail.com">Email</a>
+        <a href="https://discord.gg/qqRCkrvuNq" target="_blank">Discord</a>
+    </nav>
+    <div class="container">
+        <div class="section">
+            <h2>Về chúng tôi</h2>
+            <p>Chào mừng bạn đến với Funkin Project Vietnam! Chúng tôi là một nhóm bạn trẻ đam mê dịch thuật và Việt hóa các tựa game, đặc biệt là <strong>Friday Night Funkin'</strong> và các bản mod của nó. Team này chủ yếu tập trung vào việc mang đến trải nghiệm chơi game bằng tiếng Việt mà vẫn giữ được cái hồn của game gốc. Không biết tiếng Anh? Không sao, tụi mình ở đây để giúp bạn quẩy hết mình!</p>
+            <p><strong>Note:</strong> Team này chủ yếu là dịch thuật, Việt hóa các bản mods và bản gốc thôi nè :))))</p>
+        </div>
+        <div class="section">
+            <h2>Sứ mệnh của chúng tôi</h2>
+            <p>Chúng tôi muốn mang những tựa game đỉnh cao đến gần hơn với game thủ Việt Nam thông qua việc Việt hóa. Tụi mình tin rằng mọi người đều xứng đáng được trải nghiệm những trò chơi siêu chất bằng ngôn ngữ mẹ đẻ. Hãy cùng nhau tạo nên một cộng đồng game thủ Việt Nam sôi động!</p>
+        </div>
+        <div class="section">
+            <h2>Liên lạc với tụi mình</h2>
+            <p>Nếu bạn muốn tham gia hoặc liên hệ với Funkin Project Vietnam, hãy kết nối qua:</p>
+            <ul>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Funkin-Project-Vietnam" target="_blank">Funkin-Project-Vietnam</a></li>
+                <li><strong>Email:</strong> <a href="mailto:hoaanhminevn@gmail.com">hoaanhminevn@gmail.com</a></li>
+                <li><strong>Discord:</strong> <a href="https://discord.gg/qqRCkrvuNq" target="_blank">Join our server!</a></li>
+            </ul>
+            <p>Hãy theo dõi tụi mình để cập nhật các dự án mới nhất nha!</p>
+        </div>
+        <div class="adsense">
+            <p>Quảng cáo sẽ xuất hiện tại đây (Google AdSense)</p>
+            <!-- Placeholder for AdSense ad unit -->
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7839368169456541"
+                    crossorigin="anonymous"></script>
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-7839368169456541"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
-  </header>
-
-  <section class="container mx-auto px-4 py-12 bg-white shadow-md rounded-lg">
-    <h2 class="text-3xl font-semibold text-center mb-8" style="--child-index: 1;">
-      <i class="fa-solid fa-users icon text-neon-green"></i>Chúng tôi là ai?
-    </h2>
-    <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto" style="--child-index: 2;">
-      Funkin-Project-Vietnam là một nhóm bạn trẻ, từ dân dịch thuật, coder, designer, đến tester, cùng nhau "quẩy" để biến những tựa game yêu thích sang tiếng Việt. Chúng tôi tin rằng không biết tiếng Anh không có nghĩa là bạn phải bỏ lỡ những trò chơi siêu chất. Mục tiêu của tụi mình là làm sao để mọi người chơi game bằng tiếng Việt mà vẫn cảm nhận được cái hồn của game gốc!
-    </p>
-  </section>
-
-  <section class="container mx-auto px-4 py-12">
-    <h2 class="text-3xl font-semibold text-center mb-8" style="--child-index: 1;">
-      <i class="fa-solid fa-rocket icon text-neon-green"></i>Sứ mệnh của chúng tôi
-    </h2>
-    <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto" style="--child-index: 2;">
-      Chúng tôi đam mê mang những tựa game đỉnh cao đến gần hơn với anh em game thủ Việt Nam thông qua việc Việt hóa. Cùng nhau, tụi mình sẽ mang những tựa game đỉnh cao đến tay game thủ Việt Nam, đúng chuẩn tiếng Việt, đúng chất chơi! 🎮
-    </p>
-  </section>
-
-  <section class="container mx-auto px-4 py-12 bg-white shadow-md rounded-lg">
-    <h2 class="text-3xl font-semibold text-center mb-8" style="--child-index: 1;">
-      <i class="fa-solid fa-code icon text-neon-green"></i>Dự án của chúng tôi
-    </h2>
-    <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto mb-8" style="--child-index: 2;">
-      Dưới đây là danh sách các dự án hiện tại trên GitHub của Funkin-Project-Vietnam. Chúng tôi đang nỗ lực Việt hóa các tựa game đỉnh cao để mang lại trải nghiệm tuyệt vời cho game thủ Việt. Hãy theo dõi để cập nhật những dự án mới nhất!
-    </p>
-    <div class="max-w-3xl mx-auto" style="--child-index: 3;">
-      <div class="project-card">
-        <h3 class="text-xl font-semibold mb-2">
-          <i class="fa-solid fa-folder icon text-neon-green"></i>
-          <a href="https://github.com/Funkin-Project-Vietnam/Funkin-Project-Vietnam.github" class="project-link">Funkin-Project-Vietnam.github</a>
-        </h3>
-        <p class="text-gray-700 mb-2">Mô tả: About we - Trang giới thiệu về đội ngũ Funkin-Project-Vietnam.</p>
-        <p class="text-sm text-gray-500 mb-1"><i class="fa-solid fa-star icon"></i> Stars: 0 | <i class="fa-solid fa-code-fork icon"></i> Forks: 0</p>
-        <p class="text-sm text-gray-500"><i class="fa-solid fa-calendar icon"></i> Cập nhật lần cuối: Aug 30, 2025</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="container mx-auto px-4 py-12">
-    <h2 class="text-3xl font-semibold text-center mb-8" style="--child-index: 1;">
-      <i class="fa-solid fa-comments icon text-neon-green"></i>Liên lạc với tụi mình
-    </h2>
-    <p class="text-lg text-gray-700 leading-relaxed text-center max-w-3xl mx-auto" style="--child-index: 2;">
-      Cảm ơn bạn đã ủng hộ Funkin-Project-Vietnam! Nếu bạn muốn liên hệ hoặc tham gia cùng tụi mình, hãy theo dõi chúng tôi trên 
-      <a href="https://github.com/Funkin-Project-Vietnam" class="text-blue-600 hover:text-blue-800 hover:underline">
-        <i class="fa-brands fa-github icon"></i>GitHub Organization
-      </a> và kênh 
-      <a href="https://www.youtube.com/@hmfnf" class="text-red-600 hover:text-red-800 hover:underline">
-        <i class="fa-brands fa-youtube icon"></i>YouTube: hmfnf
-      </a>. Hãy cùng nhau tạo nên một cộng đồng game thủ Việt Nam sôi động!
-    </p>
-  </section>
-
-  <footer class="bg-gray-800 text-white py-6">
-    <div class="container mx-auto px-4 text-center">
-      <p><i class="fa-solid fa-heart icon text-neon-green"></i>&copy; 2025 Funkin-Project-Vietnam. All rights reserved.</p>
-    </div>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Funkin Project Vietnam. All rights reserved. Hosted at <a href="http://hmfnf.dpdns.org" style="color: #1a73e8;">hmfnf.dpdns.org</a></p>
+    </footer>
 </body>
 </html>
