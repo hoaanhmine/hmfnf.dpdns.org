@@ -19,6 +19,11 @@
               color: white;
               text-align: center;
               padding: 2rem;
+              animation: fadeInDown 1s;
+          }
+          @keyframes fadeInDown {
+              from { opacity: 0; transform: translateY(-40px); }
+              to { opacity: 1; transform: translateY(0); }
           }
           header h1 {
               margin: 0;
@@ -33,21 +38,49 @@
               text-decoration: none;
               margin: 0 1rem;
               font-size: 1.1rem;
+              transition: color 0.3s, transform 0.3s;
+              display: inline-block;
           }
           nav a:hover {
               text-decoration: underline;
+              color: #1a73e8;
+              transform: scale(1.08);
           }
           .container {
               max-width: 1200px;
               margin: 0 auto;
               padding: 2rem;
+              animation: fadeIn 1.2s;
+          }
+          @keyframes fadeIn {
+              from { opacity: 0; }
+              to { opacity: 1; }
           }
           .section {
               background-color: white;
               padding: 2rem;
               margin-bottom: 2rem;
               border-radius: 8px;
-              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+              transition: box-shadow 0.3s, transform 0.3s;
+          }
+          .section:hover {
+              box-shadow: 0 8px 24px rgba(26, 115, 232, 0.15);
+              transform: translateY(-4px) scale(1.01);
+          }
+          #blog-list article {
+              transition: box-shadow 0.3s, transform 0.3s, opacity 0.8s;
+              opacity: 0;
+              animation: fadeInBlog 1s forwards;
+          }
+          #blog-list article:hover {
+              box-shadow: 0 8px 24px rgba(26, 115, 232, 0.18);
+              transform: translateY(-6px) scale(1.03);
+          }
+          @keyframes fadeInBlog {
+              from { opacity: 0; }
+              to { opacity: 1; }
+          }
           }
           .section h2 {
               color: #1a73e8;
