@@ -3,12 +3,16 @@
     "title": "Bài viết đầu tiên",
     "url": "blog/first-post.html",
     "description": "Chào mừng bạn đến với blog của team!",
-    "date": "2025-09-09"
+    "date": "2025-09-09",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
+    "alt": "Friday Night Funkin' Việt hóa - Chào mừng"
   },
   {
     "title": "FNF Codename Engine Việt Hóa - Hướng dẫn tải và trải nghiệm",
     "url": "blog/fnf-codenameengine-viethoa.html",
     "description": "Hướng dẫn tải, cài đặt, lợi ích và link dự án Việt hóa FNF Codename Engine.",
-    "date": "2025-09-09"
+    "date": "2025-09-09",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80",
+    "alt": "FNF Codename Engine Việt hóa - Hướng dẫn tải và trải nghiệm"
   }
 ]
