@@ -229,38 +229,6 @@
 	
 </head>
 <body>
-		<div id="mod-select" style="position:fixed;top:24px;right:24px;z-index:1000;background:#fff;border-radius:12px;box-shadow:0 2px 8px rgba(26,115,232,0.12);padding:1.2rem 2rem;min-width:260px;">
-				<h3 style="margin-top:0;color:#1a73e8;">Chọn Mod</h3>
-				<select id="mod-list" style="width:100%;padding:0.5rem 0.7rem;border-radius:6px;border:1px solid #ccc;font-size:1rem;">
-						<option value="">-- Chọn mod --</option>
-				</select>
-				<div id="mod-desc" style="margin-top:0.7rem;color:#555;font-size:0.95rem;"></div>
-				<button id="mod-load" style="margin-top:1rem;padding:0.5rem 1.2rem;background:#1a73e8;color:#fff;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Nạp mod</button>
-		</div>
-		<script>
-		fetch('mods.json?v=' + Date.now())
-			.then(res => res.json())
-			.then(mods => {
-				const select = document.getElementById('mod-list');
-				mods.forEach(mod => {
-					const opt = document.createElement('option');
-					opt.value = mod.folder;
-					opt.textContent = mod.name;
-					select.appendChild(opt);
-				});
-				select.addEventListener('change', function() {
-					const mod = mods.find(m => m.folder === this.value);
-					document.getElementById('mod-desc').textContent = mod ? mod.description : '';
-				});
-			});
-		document.getElementById('mod-load').onclick = function() {
-			const select = document.getElementById('mod-list');
-			const modFolder = select.value;
-			if (!modFolder) { alert('Vui lòng chọn mod!'); return; }
-			// Tích hợp: Tại đây bạn cần thêm code để nạp mod vào game
-			alert('Đã chọn mod: ' + modFolder + '\n(Hãy tích hợp code nạp mod vào game tại đây)');
-		};
-		</script>
 	
 	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
 	
