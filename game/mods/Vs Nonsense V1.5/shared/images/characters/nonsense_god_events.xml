@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nonsense_god_events.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="god eventconfused0000" x="5" y="5" width="414" height="725"/>
+	<SubTexture name="god eventconfused0001" x="5" y="5" width="414" height="725"/>
+	<SubTexture name="god eventconfused0002" x="5" y="5" width="414" height="725"/>
+	<SubTexture name="god eventwhat0000" x="424" y="5" width="414" height="725" frameX="-329" frameY="-380" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0001" x="843" y="5" width="414" height="725" frameX="-329" frameY="-380" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0002" x="1262" y="5" width="414" height="725" frameX="-329" frameY="-380" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0003" x="1681" y="5" width="414" height="725" frameX="-329" frameY="-380" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0004" x="1681" y="5" width="414" height="725" frameX="-329" frameY="-380" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0005" x="2100" y="5" width="767" height="960" frameX="-117" frameY="-145" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0006" x="2872" y="5" width="858" height="925" frameX="-141" frameY="-180" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0007" x="5" y="970" width="1050" height="953" frameX="0" frameY="-152" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0008" x="1060" y="970" width="876" height="831" frameX="-24" frameY="-274" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0009" x="1941" y="970" width="928" height="950" frameX="-6" frameY="-266" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0010" x="2874" y="970" width="1036" height="904" frameX="-13" frameY="-303" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0011" x="5" y="1928" width="1092" height="1253" frameX="-8" frameY="0" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0012" x="1102" y="1928" width="1014" height="1150" frameX="-26" frameY="-36" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0013" x="2121" y="1928" width="1087" height="1181" frameX="-26" frameY="-7" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0014" x="5" y="3186" width="1056" height="1020" frameX="-172" frameY="-129" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0015" x="1066" y="3186" width="1251" height="1028" frameX="-28" frameY="-121" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0016" x="2322" y="3186" width="1077" height="946" frameX="-52" frameY="-159" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0017" x="5" y="4219" width="1103" height="1119" frameX="-34" frameY="-23" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0018" x="1113" y="4219" width="1093" height="1046" frameX="-41" frameY="-59" frameWidth="1279" frameHeight="1312"/>
+	<SubTexture name="god eventwhat0019" x="2211" y="4219" width="1098" height="1282" frameX="-36" frameY="-30" frameWidth="1279" frameHeight="1312"/>
+</TextureAtlas>

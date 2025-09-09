@@ -1,0 +1,81 @@
+import funkin.play.stage.Stage;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.PlayState;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import funkin.util.FlxTweenUtil;
+import flixel.FlxG;
+
+class NonsenseStage extends Stage
+{
+	var devCarDrived:Bool = false;
+	var created:Bool = false;
+
+	function new()
+	{
+		super('nonsenseRoom');
+	}
+
+	override function onCreate(event:ScriptEvent):Void
+	{
+		super.onCreate(event);
+
+		resetBlackBox();
+
+		if (PlayStatePlaylist.isStoryMode) return;
+		devCarDrived = false;
+	}
+
+	override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		resetBlackBox();
+	}
+
+	function resetBlackBox():Void
+	{
+		var blackSquare = getNamedProp('blacksquare');
+		blackSquare.alpha = 0.0001;
+	}
+
+	override function onSongStart(event:ScriptEvent)
+	{
+		super.onSongStart(event);
+
+		PlayState.instance.comboPopUps.offsets = [50, -100];
+	}
+
+	function onBeatHit(event:SongTimeScriptEvent)
+	{
+		super.onBeatHit(event);
+
+		devCar();
+	}
+
+	function onPause(event:PauseScriptEvent) {
+		var car = getNamedProp('dev-car');
+		if (car == null) return;
+		FlxTweenUtil.pauseTweensOf(car);
+	}
+
+  function onResume(event:ScriptEvent) {
+		var car = getNamedProp('dev-car');
+		if (car == null) return;
+		FlxTweenUtil.resumeTweensOf(car);
+	}
+
+	function devCar():Void
+	{
+		if (devCarDrived || !FlxG.random.bool(.1)) return;
+
+		var car = getNamedProp('dev-car');
+		FlxTween.tween(car, {x:1800}, 30, {
+        	ease: FlxEase.linear,
+    	});
+		car.animation.play('drive');
+
+		devCarDrived = true;
+	}
+}
+
+

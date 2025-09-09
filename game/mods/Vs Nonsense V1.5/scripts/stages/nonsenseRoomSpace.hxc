@@ -1,0 +1,95 @@
+import funkin.play.stage.Stage;
+import funkin.play.PlayState;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import funkin.util.FlxTweenUtil;
+import funkin.graphics.shaders.AdjustColorShader;
+
+class NonsenseSpaceStage extends Stage
+{
+	var colorShader:AdjustColorShader;
+
+	function new()
+	{
+		super('nonsenseRoomSpace');
+	}
+
+	override function onCreate(event:ScriptEvent):Void
+	{
+		super.onCreate(event);
+
+		resetBlackBox();
+
+		var topBgFloating = getNamedProp('backgroundOtherHalf');
+		FlxTween.tween(topBgFloating, {y:-870}, 7, {
+			ease: FlxEase.sineInOut,
+			type: 4, //this is PingPing type.. idk why tf I have to use the specific Int but whatever
+		});
+
+		var spaceBg = getNamedProp('spaceBG');
+		FlxTween.tween(spaceBg, {x:-850}, 30, {
+			ease: FlxEase.sineInOut,
+			type: 4, //this is PingPing type.. idk why tf I have to use the specific Int but whatever
+		});
+
+		var blendOverlay = getNamedProp('blend');
+		blendOverlay.alpha = 0.3;
+		blendOverlay.blend = 9;
+
+		colorShader = new AdjustColorShader();
+		colorShader.hue = -15;
+		colorShader.saturation = -20;
+		colorShader.contrast = 10;
+		colorShader.brightness = -10;
+	}
+
+	override function addCharacter(character:BaseCharacter, charType:CharacterType):Void {
+		// Apply the shader automatically to each character as it gets added.
+		super.addCharacter(character, charType);
+
+		character.shader = colorShader;
+		getNamedProp('backgroundOtherHalf').shader = colorShader;
+		getNamedProp('background').shader = colorShader;
+		getNamedProp('spaceBG').shader = colorShader;
+		getNamedProp('chair').shader = colorShader;
+	}
+	function onPause(event:PauseScriptEvent) {
+		var topBgFloating = getNamedProp('backgroundOtherHalf');
+		if (topBgFloating == null) return;
+		FlxTweenUtil.pauseTweensOf(topBgFloating);
+
+		var spaceBg = getNamedProp('spaceBG');
+		if (spaceBg == null) return;
+		FlxTweenUtil.pauseTweensOf(spaceBg);
+	}
+
+  function onResume(event:ScriptEvent) {
+		var topBgFloating = getNamedProp('backgroundOtherHalf');
+		if (topBgFloating == null) return;
+		FlxTweenUtil.resumeTweensOf(topBgFloating);
+
+		var spaceBg = getNamedProp('spaceBG');
+		if (spaceBg == null) return;
+		FlxTweenUtil.resumeTweensOf(spaceBg);
+	}
+
+	function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		resetBlackBox();
+	}
+
+	function resetBlackBox():Void
+	{
+		var blackSquare = getNamedProp('blacksquare');
+		blackSquare.alpha = 0.0001;
+	}
+	override function onSongStart(event:ScriptEvent)
+	{
+		super.onSongStart(event);
+
+		PlayState.instance.comboPopUps.offsets = [50, -100];
+	}
+}
+
+

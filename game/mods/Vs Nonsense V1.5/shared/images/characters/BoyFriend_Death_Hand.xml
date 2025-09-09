@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BoyFriend_Death_Hand.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Hand BF Dead Loop0000" x="5" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0001" x="449" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0002" x="449" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0003" x="893" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0004" x="893" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0005" x="1337" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0006" x="1337" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0007" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0008" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0009" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0010" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0011" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0012" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0013" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0014" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0015" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0016" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0017" x="5" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0018" x="449" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0019" x="449" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0020" x="893" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0021" x="893" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0022" x="1337" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0023" x="1337" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0024" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0025" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0026" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0027" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0028" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0029" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0030" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0031" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0032" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead Loop0033" x="1781" y="5" width="439" height="435"/>
+	<SubTexture name="Hand BF Dead confirm0000" x="2225" y="5" width="439" height="435" frameX="0" frameY="-64" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0001" x="2669" y="5" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0002" x="3113" y="5" width="439" height="499"/>
+	<SubTexture name="Hand BF Dead confirm0003" x="3557" y="5" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0004" x="5" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0005" x="449" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0006" x="893" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0007" x="1337" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0008" x="1781" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0009" x="2225" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0010" x="2669" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0011" x="3113" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0012" x="3557" y="509" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0013" x="5" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0014" x="449" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0015" x="893" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0016" x="1337" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0017" x="1781" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0018" x="2225" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0019" x="2669" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0020" x="3113" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0021" x="3557" y="983" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0022" x="5" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0023" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0024" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0025" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0026" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0027" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0028" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0029" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0030" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0031" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0032" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF Dead confirm0033" x="449" y="1457" width="439" height="469" frameX="0" frameY="-30" frameWidth="439" frameHeight="499"/>
+	<SubTexture name="Hand BF dies0000" x="893" y="1457" width="433" height="415" frameX="-1" frameY="0" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0001" x="1331" y="1457" width="433" height="415" frameX="-1" frameY="0" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0002" x="1769" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0003" x="2213" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0004" x="2657" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0005" x="3101" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0006" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0007" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0008" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0009" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0010" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0011" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0012" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0013" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0014" x="3545" y="1457" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0015" x="5" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0016" x="5" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0017" x="5" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0018" x="449" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0019" x="449" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0020" x="893" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0021" x="893" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0022" x="1337" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0023" x="1337" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0024" x="1781" y="1931" width="439" height="412" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0025" x="2225" y="1931" width="439" height="439" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0026" x="2225" y="1931" width="439" height="439" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0027" x="2669" y="1931" width="439" height="434" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0028" x="2669" y="1931" width="439" height="434" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0029" x="3113" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0030" x="3113" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0031" x="3557" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0032" x="3557" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0033" x="3557" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0034" x="3557" y="1931" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0035" x="5" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0036" x="449" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0037" x="893" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0038" x="1337" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0039" x="1781" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0040" x="2225" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0041" x="2669" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0042" x="3113" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0043" x="3557" y="2375" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0044" x="5" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0045" x="449" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0046" x="893" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0047" x="1337" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0048" x="1781" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0049" x="2225" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0050" x="2669" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0051" x="3113" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0052" x="3557" y="2815" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0053" x="5" y="5" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="435"/>
+	<SubTexture name="Hand BF dies0054" x="5" y="3255" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0055" x="5" y="3255" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0056" x="5" y="3255" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+	<SubTexture name="Hand BF dies0057" x="5" y="3255" width="439" height="435" frameX="0" frameY="-6" frameWidth="439" frameHeight="445"/>
+</TextureAtlas>

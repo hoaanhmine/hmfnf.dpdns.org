@@ -1,0 +1,46 @@
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import flixel.addons.effects.FlxTrail;
+import funkin.modding.module.Module;
+import funkin.modding.module.ModuleHandler;
+
+class GirlfriendNonsenseCharacter extends MultiSparrowCharacter {
+	var nonsenseModule:Module;
+	var calculating:Bool = false;
+
+	var prev_suffix:String = '';
+
+	function new() {
+		super('gf-nonsense');
+
+		nonsenseModule = ModuleHandler.getModule('nonsense-module');
+	}
+
+	function onSongRetry(event:ScriptEvent) {
+		setGirlfriendIdleSuffix('');
+	}
+
+	function onBeatHit(event:SongTimeScriptEvent):Void {
+		switch (nonsenseModule.scriptCall('skillCheckCalculation')){
+			case 0:
+				setGirlfriendIdleSuffix('-bad');
+			case 1:
+				setGirlfriendIdleSuffix('');
+			case 2:
+				setGirlfriendIdleSuffix('-good');
+		}
+	}
+
+	function setGirlfriendIdleSuffix(suffix:String):Void {
+		if (prev_suffix == suffix){ //so that gf wont bop on the same side constantly
+			return;
+		}
+
+		hasDanced = !hasDanced; //so that gf doesn't bop on the same side twice
+		set_idleSuffix(suffix);
+		prev_suffix = suffix;
+
+		//trace(suffix);
+	}
+}

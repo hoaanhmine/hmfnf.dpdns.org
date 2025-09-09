@@ -1,0 +1,44 @@
+import flixel.tweens.FlxTween;
+import flixel.FlxCamera;
+import flixel.tweens.FlxEase;
+import flixel.FlxG;
+// Data from the chart
+import funkin.Conductor;
+
+import funkin.play.PlayState;
+
+// Data from the event schema
+import funkin.play.event.ScriptedSongEvent;
+
+class FlashCamEvent extends ScriptedSongEvent{
+    static var DEFAULT_DURATION:Float = 4.0;
+
+    public function new(){
+        super('FlashCam');
+    }
+
+    public override function handleEvent(data):Void{
+        var duration:Float = data.getFloat('duration') ?? DEFAULT_DURATION;
+        var white = 0x00BABABA;
+        var durSeconds = Conductor.instance.stepLengthMs * duration / 1000;
+        FlxG.camera.flash(white, durSeconds);
+    }
+
+    public override function getTitle():String
+    {
+        return 'Flash Cam';
+    }
+
+    public override function getEventSchema()
+    {
+        return([
+        {
+            name: 'duration',
+            title: 'Duration',
+            defaultValue: 4.0,
+            step: 0.5,
+            type: 'float',
+            units: 'steps'
+        }]);
+    }
+}

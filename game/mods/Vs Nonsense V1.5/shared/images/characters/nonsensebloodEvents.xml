@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nonsensebloodEvents.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blood could be better0000" x="5" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0001" x="5" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0002" x="5" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0003" x="305" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0004" x="305" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0005" x="305" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0006" x="605" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0007" x="605" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0008" x="605" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0009" x="905" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0010" x="905" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0011" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0012" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0013" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0014" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0015" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0016" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0017" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0018" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0019" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0020" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0021" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0022" x="1205" y="5" width="295" height="666" frameX="-77" frameY="-5" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0023" x="1505" y="5" width="269" height="659" frameX="-86" frameY="-12" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0024" x="1505" y="5" width="269" height="659" frameX="-86" frameY="-12" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0025" x="1779" y="5" width="280" height="660" frameX="-83" frameY="-11" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0026" x="2064" y="5" width="454" height="671" frameX="0" frameY="0" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0027" x="2523" y="5" width="454" height="671" frameX="0" frameY="0" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0028" x="2982" y="5" width="455" height="669" frameX="0" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0029" x="3442" y="5" width="455" height="669" frameX="0" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0030" x="5" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0031" x="462" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0032" x="919" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0033" x="1376" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0034" x="1833" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0035" x="2290" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0036" x="2747" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0037" x="2747" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0038" x="3204" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0039" x="919" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0040" x="919" y="681" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0041" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0042" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0043" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0044" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0045" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0046" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0047" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0048" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood could be better0049" x="5" y="1355" width="452" height="669" frameX="-2" frameY="-2" frameWidth="455" frameHeight="671"/>
+	<SubTexture name="blood pretty good0000" x="462" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0001" x="760" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0002" x="760" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0003" x="1058" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0004" x="462" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0005" x="462" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0006" x="1356" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0007" x="1356" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0008" x="1654" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0009" x="1654" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0010" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0011" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0012" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0013" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0014" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0015" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0016" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0017" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0018" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0019" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0020" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0021" x="1952" y="1355" width="293" height="666" frameX="-4" frameY="0" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0022" x="2250" y="1355" width="303" height="648" frameX="0" frameY="-18" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0023" x="2250" y="1355" width="303" height="648" frameX="0" frameY="-18" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0024" x="2558" y="1355" width="299" height="650" frameX="-3" frameY="-16" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0025" x="2862" y="1355" width="265" height="663" frameX="-27" frameY="-3" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0026" x="3132" y="1355" width="269" height="661" frameX="-27" frameY="-5" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0027" x="3406" y="1355" width="269" height="661" frameX="-27" frameY="-5" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0028" x="3680" y="1355" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0029" x="5" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0030" x="280" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0031" x="3680" y="1355" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0032" x="555" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0033" x="555" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0034" x="830" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0035" x="830" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0036" x="3680" y="1355" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0037" x="3680" y="1355" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0038" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0039" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0040" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0041" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0042" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0043" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0044" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0045" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+	<SubTexture name="blood pretty good0046" x="1105" y="2029" width="270" height="660" frameX="-26" frameY="-6" frameWidth="303" frameHeight="666"/>
+</TextureAtlas>

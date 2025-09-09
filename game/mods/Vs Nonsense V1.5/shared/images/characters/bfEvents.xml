@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfEvents.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF eventDab0000" x="5" y="5" width="401" height="362" frameX="0" frameY="-14" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0001" x="5" y="5" width="401" height="362" frameX="0" frameY="-14" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0002" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0003" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0004" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0005" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0006" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0007" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0008" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0009" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0010" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0011" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0012" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0013" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0014" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0015" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0016" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0017" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0018" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0019" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0020" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0021" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0022" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0023" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0024" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0025" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventDab0026" x="411" y="5" width="404" height="376" frameX="-6" frameY="0" frameWidth="410" frameHeight="376"/>
+	<SubTexture name="BF eventFing0000" x="820" y="5" width="556" height="541" frameX="0" frameY="0" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0001" x="820" y="5" width="556" height="541" frameX="0" frameY="0" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0002" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0003" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0004" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0005" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0006" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0007" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0008" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0009" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0010" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0011" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0012" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0013" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0014" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0015" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0016" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0017" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0018" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0019" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0020" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0021" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0022" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0023" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0024" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0025" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0026" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing0027" x="1381" y="5" width="533" height="531" frameX="-17" frameY="-11" frameWidth="556" frameHeight="542"/>
+	<SubTexture name="BF eventFing censored0000" x="1919" y="5" width="585" height="555" frameX="0" frameY="0" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0001" x="1919" y="5" width="585" height="555" frameX="0" frameY="0" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0002" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0003" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0004" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0005" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0006" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0007" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0008" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0009" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0010" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0011" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0012" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0013" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0014" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0015" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0016" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0017" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0018" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0019" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0020" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0021" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0022" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0023" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0024" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0025" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0026" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventFing censored0027" x="2509" y="5" width="561" height="544" frameX="-18" frameY="-12" frameWidth="585" frameHeight="556"/>
+	<SubTexture name="BF eventGun0000" x="3075" y="5" width="549" height="414"/>
+	<SubTexture name="BF eventMoreScared0000" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0001" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0002" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0003" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0004" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0005" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0006" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0007" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0008" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0009" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0010" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0011" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0012" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0013" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0014" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0015" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0016" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0017" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0018" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0019" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0020" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0021" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0022" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0023" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0024" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0025" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0026" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0027" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0028" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0029" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0030" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0031" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0032" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0033" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0034" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0035" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0036" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0037" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0038" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0039" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0040" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0041" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0042" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0043" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0044" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0045" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0046" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0047" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0048" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0049" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0050" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0051" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventMoreScared0052" x="3629" y="5" width="367" height="412"/>
+	<SubTexture name="BF eventPoint0000" x="5" y="565" width="411" height="395" frameX="-45" frameY="-20" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0001" x="5" y="565" width="411" height="395" frameX="-45" frameY="-20" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0002" x="421" y="565" width="411" height="397" frameX="-44" frameY="-18" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0003" x="421" y="565" width="411" height="397" frameX="-44" frameY="-18" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0004" x="837" y="565" width="442" height="415" frameX="-4" frameY="0" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0005" x="837" y="565" width="442" height="415" frameX="-4" frameY="0" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0006" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0007" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0008" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0009" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0010" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0011" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0012" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0013" x="1284" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0014" x="1734" y="565" width="449" height="412" frameX="0" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0015" x="1734" y="565" width="449" height="412" frameX="0" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0016" x="2188" y="565" width="444" height="412" frameX="-5" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0017" x="2188" y="565" width="444" height="412" frameX="-5" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0018" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0019" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0020" x="3087" y="565" width="449" height="412" frameX="0" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0021" x="3087" y="565" width="449" height="412" frameX="0" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0022" x="2188" y="565" width="444" height="412" frameX="-5" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0023" x="2188" y="565" width="444" height="412" frameX="-5" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0024" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0025" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0026" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0027" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0028" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0029" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0030" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0031" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventPoint0032" x="2637" y="565" width="445" height="412" frameX="-4" frameY="-3" frameWidth="456" frameHeight="415"/>
+	<SubTexture name="BF eventScared0000" x="3541" y="565" width="391" height="402" frameX="0" frameY="-10" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0001" x="3541" y="565" width="391" height="402" frameX="0" frameY="-10" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0002" x="5" y="985" width="414" height="412" frameX="-59" frameY="0" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0003" x="424" y="985" width="414" height="412" frameX="-59" frameY="0" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0004" x="843" y="985" width="416" height="410" frameX="-54" frameY="-2" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0005" x="1264" y="985" width="416" height="410" frameX="-54" frameY="-2" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0006" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0007" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0008" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0009" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0010" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0011" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0012" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0013" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0014" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0015" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0016" x="1685" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0017" x="2108" y="985" width="418" height="409" frameX="-52" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0018" x="2531" y="985" width="417" height="409" frameX="-57" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0019" x="2953" y="985" width="417" height="409" frameX="-57" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0020" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0021" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0022" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0023" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0024" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0025" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0026" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0027" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0028" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0029" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0030" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0031" x="5" y="1402" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0032" x="3375" y="985" width="417" height="409" frameX="-56" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0033" x="427" y="1402" width="418" height="409" frameX="-49" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0034" x="850" y="1402" width="418" height="409" frameX="-49" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0035" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0036" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0037" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0038" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0039" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0040" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0041" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0042" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0043" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0044" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0045" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0046" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0047" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0048" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0049" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0050" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0051" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0052" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0053" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0054" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0055" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0056" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0057" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0058" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0059" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0060" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0061" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0062" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0063" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0064" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0065" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0066" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0067" x="1273" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventScared0068" x="1695" y="1402" width="417" height="409" frameX="-51" frameY="-3" frameWidth="474" frameHeight="412"/>
+	<SubTexture name="BF eventSweat0000" x="2117" y="1402" width="401" height="413" frameX="0" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0001" x="2523" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0002" x="2929" y="1402" width="401" height="413" frameX="-1" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0003" x="3335" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0004" x="2117" y="1402" width="401" height="413" frameX="0" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0005" x="2523" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0006" x="2929" y="1402" width="401" height="413" frameX="-1" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0007" x="3335" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0008" x="2117" y="1402" width="401" height="413" frameX="0" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0009" x="2523" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0010" x="2929" y="1402" width="401" height="413" frameX="-1" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0011" x="3335" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0012" x="2117" y="1402" width="401" height="413" frameX="0" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0013" x="2523" y="1402" width="401" height="412" frameX="0" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0014" x="2929" y="1402" width="401" height="413" frameX="-1" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0015" x="5" y="1820" width="402" height="411" frameX="-1" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0016" x="412" y="1820" width="402" height="413" frameX="-2" frameY="0" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0017" x="819" y="1820" width="410" height="410" frameX="-15" frameY="-3" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0018" x="1234" y="1820" width="411" height="409" frameX="-13" frameY="-4" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0019" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0020" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0021" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0022" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0023" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0024" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0025" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0026" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0027" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0028" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0029" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0030" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0031" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0032" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0033" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0034" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0035" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0036" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0037" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0038" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0039" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0040" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0041" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0042" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0043" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0044" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0045" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0046" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0047" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0048" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0049" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0050" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0051" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0052" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0053" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0054" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0055" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0056" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0057" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0058" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0059" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0060" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0061" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0062" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0063" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0064" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0065" x="2477" y="1820" width="408" height="412" frameX="-13" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0066" x="2890" y="1820" width="409" height="411" frameX="-11" frameY="-2" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0067" x="1650" y="1820" width="408" height="412" frameX="-12" frameY="-1" frameWidth="425" frameHeight="413"/>
+	<SubTexture name="BF eventSweat0068" x="2063" y="1820" width="409" height="411" frameX="-12" frameY="-2" frameWidth="425" frameHeight="413"/>
+</TextureAtlas>

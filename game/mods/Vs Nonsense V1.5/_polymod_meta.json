@@ -1,0 +1,14 @@
+{
+  "title": "Vs Nonsense V1.5",
+  "description": "a reimagined version of the original Vs Nonsense mod, celebrating the mod's 4 year anniversary",
+  "contributors": [
+    {
+      "name": "NonsenseNH",
+      "role": "Artist, Programmer, Musician, Animator, Voice Actor, Director, Writer, Tester, Creator, Chef, Janitor, Security Guard, Doctor, Lawyer, Accountant, CEO, President, Vice President, Manager, Supervisor, Employee, Intern, Student, Teacher, Professor, Scientist, Engineer, Architect, Designer, Developer, Producer, Director, Editor, Cinematographer, Sound Designer, Composer, Lyricist, Choreographer, Performer, Waiter, Detective, Criminal, Forklift Certified, Approved by Phantom Arcade, Hello Community Game, PaperHatProjects, Nonsense, Whatever, Some random job, I ran out of things to put here",
+      "url": "https://www.youtube.com/@NonsenseNH"
+    }
+  ],
+  "api_version": "0.6.3",
+  "mod_version": "1.0.0",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nonsense_god.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="god down0000" x="5" y="5" width="414" height="730"/>
+	<SubTexture name="god down0001" x="5" y="5" width="414" height="730"/>
+	<SubTexture name="god down0002" x="424" y="5" width="414" height="730"/>
+	<SubTexture name="god idle0000" x="843" y="5" width="414" height="730"/>
+	<SubTexture name="god left-up0000" x="1262" y="5" width="414" height="730"/>
+	<SubTexture name="god left-up0001" x="1262" y="5" width="414" height="730"/>
+	<SubTexture name="god left-up0002" x="5" y="740" width="414" height="730"/>
+	<SubTexture name="god right0000" x="424" y="740" width="414" height="730"/>
+	<SubTexture name="god right0001" x="424" y="740" width="414" height="730"/>
+	<SubTexture name="god right0002" x="843" y="740" width="414" height="730"/>
+</TextureAtlas>

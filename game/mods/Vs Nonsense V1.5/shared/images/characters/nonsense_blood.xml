@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nonsense_blood.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down note blood0000" x="5" y="5" width="513" height="510" frameX="0" frameY="-11" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0001" x="5" y="5" width="513" height="510" frameX="0" frameY="-11" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0002" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0003" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0004" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0005" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0006" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0007" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0008" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0009" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0010" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="down note blood0011" x="523" y="5" width="503" height="521" frameX="-8" frameY="0" frameWidth="513" frameHeight="521"/>
+	<SubTexture name="idle blood0000" x="1031" y="5" width="300" height="666" frameX="-8" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0001" x="1031" y="5" width="300" height="666" frameX="-8" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0002" x="1336" y="5" width="296" height="664" frameX="-10" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0003" x="1336" y="5" width="296" height="664" frameX="-10" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0004" x="1637" y="5" width="288" height="666" frameX="-6" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0005" x="1637" y="5" width="288" height="666" frameX="-6" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0006" x="1637" y="5" width="288" height="666" frameX="-6" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0007" x="5" y="676" width="284" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0008" x="5" y="676" width="284" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0009" x="5" y="676" width="284" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0010" x="294" y="676" width="283" height="670" frameX="-2" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0011" x="294" y="676" width="283" height="670" frameX="-2" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0012" x="294" y="676" width="283" height="670" frameX="-2" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0013" x="294" y="676" width="283" height="670" frameX="-2" frameY="0" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0014" x="582" y="676" width="280" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0015" x="582" y="676" width="280" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0016" x="582" y="676" width="280" height="669" frameX="-3" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0017" x="867" y="676" width="270" height="665" frameX="-12" frameY="-5" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0018" x="867" y="676" width="270" height="665" frameX="-12" frameY="-5" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0019" x="1142" y="676" width="274" height="664" frameX="-14" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0020" x="1142" y="676" width="274" height="664" frameX="-14" frameY="-6" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0021" x="1421" y="676" width="293" height="666" frameX="-7" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0022" x="1421" y="676" width="293" height="666" frameX="-7" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0023" x="1421" y="676" width="293" height="666" frameX="-7" frameY="-4" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0024" x="1719" y="676" width="299" height="669" frameX="-4" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0025" x="1719" y="676" width="299" height="669" frameX="-4" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0026" x="1719" y="676" width="299" height="669" frameX="-4" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0027" x="5" y="1351" width="304" height="669" frameX="-1" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0028" x="5" y="1351" width="304" height="669" frameX="-1" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0029" x="5" y="1351" width="304" height="669" frameX="-1" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0030" x="5" y="1351" width="304" height="669" frameX="-1" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0031" x="314" y="1351" width="307" height="669" frameX="0" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0032" x="314" y="1351" width="307" height="669" frameX="0" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="idle blood0033" x="314" y="1351" width="307" height="669" frameX="0" frameY="-1" frameWidth="308" frameHeight="670"/>
+	<SubTexture name="left note blood0000" x="626" y="1351" width="401" height="634" frameX="0" frameY="-3" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0001" x="626" y="1351" width="401" height="634" frameX="0" frameY="-3" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0002" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0003" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0004" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0005" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0006" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0007" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0008" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0009" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0010" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0011" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="left note blood0012" x="1032" y="1351" width="392" height="637" frameX="-10" frameY="0" frameWidth="402" frameHeight="637"/>
+	<SubTexture name="right note blood0000" x="1429" y="1351" width="410" height="651" frameX="-2" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="right note blood0001" x="1429" y="1351" width="410" height="651" frameX="-2" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="right note blood0002" x="5" y="2025" width="407" height="651" frameX="0" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="right note blood0003" x="5" y="2025" width="407" height="651" frameX="0" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="right note blood0004" x="5" y="2025" width="407" height="651" frameX="0" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="right note blood0005" x="5" y="2025" width="407" height="651" frameX="0" frameY="0" frameWidth="412" frameHeight="651"/>
+	<SubTexture name="up note blood0000" x="417" y="2025" width="381" height="726" frameX="-9" frameY="0" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0001" x="417" y="2025" width="381" height="726" frameX="-9" frameY="0" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0002" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0003" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0004" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0005" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0006" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0007" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0008" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0009" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+	<SubTexture name="up note blood0010" x="803" y="2025" width="395" height="716" frameX="0" frameY="-10" frameWidth="395" frameHeight="726"/>
+</TextureAtlas>

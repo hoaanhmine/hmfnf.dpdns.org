@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dev_car.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dev car drive0000" x="5" y="5" width="413" height="419" frameX="-1" frameY="0" frameWidth="415" frameHeight="419"/>
+	<SubTexture name="dev car drive0001" x="5" y="429" width="415" height="419"/>
+</TextureAtlas>

@@ -1,0 +1,168 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 2,
+	"scale": 1,
+	"name": "Nonsense (Blood)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "danceRight",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "nonsense",
+		"flipX": false
+	},
+	"assetPath": "characters/nonsense_blood",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "idle blood",
+			"name": "danceRight",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"frameIndices": [
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33
+			],
+			"prefix": "idle blood",
+			"name": "danceLeft",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				151,
+				-33
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "left note blood",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				78,
+				-148
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "down note blood",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				33,
+				55
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "up note blood",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				6,
+				-19
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "right note blood",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				79,
+				1
+			],
+			"flipY": false,
+			"assetPath": "characters/nonsensebloodEvents",
+			"frameRate": 24,
+			"prefix": "blood could be better0",
+			"name": "couldBeBetterEventAnim",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				8,
+				-4
+			],
+			"flipY": false,
+			"assetPath": "characters/nonsensebloodEvents",
+			"frameRate": 24,
+			"prefix": "blood pretty good0",
+			"name": "prettyGoodEventAnim",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}
