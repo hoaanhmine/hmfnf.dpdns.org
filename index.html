@@ -90,6 +90,7 @@
       <nav>
           <a href="index.html">Trang chủ</a>
           <a href="https://hmfnf.dpdns.org/video.html">Videos & Discord</a>
+         <a href="blog.html">Blog</a>
           <a href="https://github.com/Funkin-Project-Vietnam" target="_blank">GitHub</a>
           <a href="mailto:hoaanhminevn@gmail.com">Email</a>
           <a href="https://discord.gg/qqRCkrvuNq" target="_blank">Discord</a>
@@ -114,6 +115,30 @@
               </ul>
               <p>Hãy theo dõi tụi mình để cập nhật các dự án mới nhất nha!</p>
           </div>
+                <div class="section">
+                        <h2>Blog mới nhất</h2>
+                        <ul id="blog-list"></ul>
+                </div>
+                <script>
+                fetch('blog/posts.json')
+                    .then(response => response.json())
+                    .then(posts => {
+                        const list = document.getElementById('blog-list');
+                        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+                        posts.forEach(post => {
+                            const li = document.createElement('li');
+                            li.innerHTML = `<a href='${post.url}'><strong>${post.title}</strong></a><br><span>${post.description} (${post.date})</span>`;
+                            list.appendChild(li);
+                        });
+                    });
+                </script>
+        <div class="section">
+            <h2>Bài viết nổi bật</h2>
+            <h3>Hướng dẫn chơi Friday Night Funkin' bản Việt hóa</h3>
+            <p>Bạn mới biết đến Friday Night Funkin'? Hãy thử bản Việt hóa do team thực hiện! Sau khi tải về, bạn chỉ cần giải nén và chạy file game. Nếu gặp lỗi, hãy liên hệ Discord để được hỗ trợ.</p>
+            <h3>Tin tức mới</h3>
+            <p>Team vừa hoàn thành bản dịch mod mới nhất! Xem chi tiết trên GitHub hoặc tham gia Discord để nhận link tải sớm.</p>
+        </div>
           <div class="adsense">
               <p>Quảng cáo sẽ xuất hiện tại đây (Google AdSense)</p>
               <!-- Placeholder for AdSense ad unit -->
