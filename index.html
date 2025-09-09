@@ -19,10 +19,11 @@
             gap: 0.7rem;
             color: #24292f;
         }
-        .github-section h2 img {
+        .github-section h2 .github-svg {
             width: 32px;
             height: 32px;
             vertical-align: middle;
+            display: inline-block;
         }
         #github-repos li {
             background: #fff;
@@ -173,28 +174,39 @@
           <a href="https://discord.gg/qqRCkrvuNq" target="_blank">Discord</a>
       </nav>
       <div class="container">
-                        <div class="github-section">
-                                <h2><img src="assets/github-icon.png" alt="GitHub"> Dự án nổi bật trên GitHub</h2>
-                                <ul id="github-repos" style="list-style:none;padding:0;"></ul>
-                        </div>
-                        <script>
-                        fetch('https://api.github.com/orgs/Funkin-Project-Vietnam/repos')
-                            .then(response => response.json())
-                            .then(repos => {
-                                const list = document.getElementById('github-repos');
-                                repos.forEach(repo => {
-                                    const li = document.createElement('li');
-                                    li.innerHTML = `
-                                        <a href='${repo.html_url}' target='_blank'>
-                                            <img src='assets/github-icon.png' alt='GitHub' style='width:20px;height:20px;'>
-                                            ${repo.name}
-                                        </a>
-                                        <span class='repo-desc'>${repo.description ? repo.description : ''}</span>
-                                    `;
-                                    list.appendChild(li);
-                                });
-                            });
-                        </script>
+                                <div class="github-section">
+                                        <h2>
+                                                <span class="github-svg" style="width:32px;height:32px;vertical-align:middle;display:inline-block;">
+                                                        <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 2C6.477 2 2 6.484 2 12.012c0 4.425 2.867 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.37-1.342-3.37-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.833.091-.646.35-1.088.636-1.34-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.909-1.295 2.747-1.025 2.747-1.025.546 1.378.202 2.396.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.579.688.481C19.135 20.19 22 16.436 22 12.012 22 6.484 17.523 2 12 2z"/>
+                                                        </svg>
+                                                </span>
+                                                Dự án nổi bật trên GitHub
+                                        </h2>
+                                        <ul id="github-repos" style="list-style:none;padding:0;"></ul>
+                                </div>
+                                <script>
+                                fetch('https://api.github.com/orgs/Funkin-Project-Vietnam/repos')
+                                    .then(response => response.json())
+                                    .then(repos => {
+                                        const list = document.getElementById('github-repos');
+                                        repos.forEach(repo => {
+                                            const li = document.createElement('li');
+                                            li.innerHTML = `
+                                                <a href='${repo.html_url}' target='_blank'>
+                                                    <span class='github-svg' style='width:20px;height:20px;display:inline-block;vertical-align:middle;'>
+                                                        <svg viewBox='0 0 24 24' fill='currentColor' width='20' height='20' xmlns='http://www.w3.org/2000/svg'>
+                                                            <path d='M12 2C6.477 2 2 6.484 2 12.012c0 4.425 2.867 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.605-3.37-1.342-3.37-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.833.091-.646.35-1.088.636-1.34-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.254-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.909-1.295 2.747-1.025 2.747-1.025.546 1.378.202 2.396.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .268.18.579.688.481C19.135 20.19 22 16.436 22 12.012 22 6.484 17.523 2 12 2z'/>
+                                                        </svg>
+                                                    </span>
+                                                    ${repo.name}
+                                                </a>
+                                                <span class='repo-desc'>${repo.description ? repo.description : ''}</span>
+                                            `;
+                                            list.appendChild(li);
+                                        });
+                                    });
+                                </script>
           <div class="section">
               <h2>Về chúng tôi</h2>
               <p>Chào mừng bạn đến với Funkin Project Vietnam! Chúng tôi là một nhóm bạn trẻ đam mê dịch thuật và Việt hóa các tựa game, đặc biệt là <strong>Friday Night Funkin'</strong> và các bản mod của nó. Team này chủ yếu tập trung vào việc mang đến trải nghiệm chơi game bằng tiếng Việt mà vẫn giữ được cái hồn của game gốc. Không biết tiếng Anh? Không sao, tụi mình ở đây để giúp bạn quẩy hết mình!</p>
